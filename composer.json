@@ -1,0 +1,22 @@
+{
+    "name": "orus/composer-library",
+    "description": "A starter kit for creating php libraries.",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^6.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Youssouf CHERIF",
+            "email": "ycherif@orus.ci"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Orus\\PackageName\\": "src/"
+        }
+    }
+}
